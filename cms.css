@@ -1,0 +1,76 @@
+/* ---- all ---- */
+
+th {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+thead th {
+    font-weight: bold;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 778px) {
+  main {
+    margin-bottom: 75px;
+  }
+}
+
+.card-header {
+    background-color: lightgray;
+}
+
+/* ---- New ---- */
+
+trix-editor {
+    min-height: 25em;
+}
+
+/* ---- Show/Edit ---- */
+
+.card {
+    margin: 10px 0 10px 0;
+}
+
+.imagem-capa {
+    padding: 15px 15px 0 15px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    .imagem-capa {
+        padding: 5px 5px 0 5px;
+    }
+}
+
+@media (max-width: 298px) {
+     .imagem-capa {
+        padding: 0;
+    }
+}
+
+.imagem-capa > .card-body {
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.imagem-capa > .card-body > .card-title {
+    margin: 0;
+}
+
+#comentario > .card {
+    max-width: 778px;
+    margin: 10px auto;
+}
+
+#comentario p {
+    margin-bottom: 5px;
+}
+
+/* ---- Menu ---- */
+
+
