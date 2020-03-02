@@ -1,0 +1,340 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="trix.css">
+    <link href="footer.css" rel="stylesheet">
+    <link href="cms.css" rel="stylesheet">
+    <script type="text/javascript" src="trix-core.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark p-1 shadow">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
+          CMS - Gestor de Conteúdo
+      </a>
+
+      <ul class="navbar-nav ml-auto px-3">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="d-none d-md-inline-block">Ricardo Silva dos Santos</span>
+          </a>
+          <div class="dropdown-menu position-absolute" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">ricardo.ss@defensoria.to.def.br</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sair</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 bg-light sidebar">
+          <div class="sidebar-sticky">
+            <div class="collapse d-md-block" id="navbarSupportedContent">
+               <div id="subMenuParent">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#postagem" data-toggle="collapse">
+                        <span data-feather="cast"></span>
+                        Postagens
+                      </a>
+                      <div id="postagem" class="collapse pl-4"  data-parent="#subMenuParent">
+                          <ul class="nav flex-column">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="message-square"></span>
+                                Nova Notícia
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="layout"></span>
+                                Nova Página
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="image"></span>
+                                Nova Galeria
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="trello"></span>
+                                Novo Banner
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="play-circle"></span>
+                                Novo Vídeo
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="circle"></span>
+                                Novo Botão
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <span data-feather="user"></span>
+                                Nova Pessoa
+                              </a>
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contatos" data-toggle="collapse">
+                        <span data-feather="phone"></span>
+                        Contatos
+                      </a>
+                      <div id="contatos" class="collapse pl-4"  data-parent="#subMenuParent">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span data-feather="list"></span>
+                              Listar
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span data-feather="plus-square"></span>
+                              Cadastrar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#destinos" data-toggle="collapse">
+                        <span data-feather="send"></span>
+                        Destinos
+                      </a>
+                      <div id="destinos" class="collapse pl-4"  data-parent="#subMenuParent">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span data-feather="list"></span>
+                              Listar
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span data-feather="plus-square"></span>
+                              Cadastrar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#menus" data-toggle="collapse">
+                        <span data-feather="menu"></span>
+                        Menus
+                      </a>
+                      <div id="menus" class="collapse pl-4"  data-parent="#subMenuParent">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span data-feather="list"></span>
+                              Listar
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span data-feather="plus-square"></span>
+                              Cadastrar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#administracao" data-toggle="collapse">
+                        <span data-feather="settings"></span>
+                        Administração
+                      </a>
+                      <div id="administracao" class="collapse pl-4" data-parent="#subMenuParent">
+                         <ul class="nav flex-column">
+                           <li class="nav-item">
+                             <a href="" class="nav-link">
+                               <span data-feather="user"></span>
+                               Usuários
+                             </a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="" class="nav-link">
+                                <span data-feather="users"></span>
+                                Grupos
+                             </a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="" class="nav-link">
+                               <span data-feather="check-square"></span>
+                               Auditoria
+                             </a>
+                           </li>
+                         </ul>
+                      </div>
+                    </li>
+                  </ul>
+               </div>
+            </div>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-10 ml-sm-auto col-lg-10">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Menu - Menu 01</h1>
+          </div>
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="card shadow">
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <strong>Nome do Menu</strong>
+                          </li>
+                          <li class="list-group-item">
+                              <strong>Descrição do Menu</strong>
+                          </li>
+                          <li class="list-group-item">
+                              <strong>URL Cadastrada</strong>
+                          </li>
+                      </ul>
+                  </div>
+                  
+                  <div class="card shadow">
+                      <div class="card-header">
+                          <h6>Configurações de Publicação</h6>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <strong>Aplicação</strong>
+                          </li>
+                          <li class="list-group-item">
+                              <strong>Aparecer na Página</strong>
+                          </li>
+                          <li class="list-group-item">
+                              <strong>SubMenu do Menu</strong>
+                          </li>
+                          <li class="list-group-item">
+                              <strong>Ordem</strong>
+                          </li>
+                      </ul>
+                  </div>
+                  
+                  <div class="card shadow">
+                      <div class="card-header">
+                          <h6>SubMenus</h6>
+                      </div>
+
+                      <table class="table table-sm table-hover">
+                          <thead>
+                              <tr>
+                                  <th class="py-1">Ordem</th>
+                                  <th class="py-1">Nome</th>
+                                  <th class="py-1 d-none d-sm-table-cell">URL Cadastrada</th>
+                                  <th class="py-1 text-center">Exibir</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <th class="pl-4">1</th>
+                                  <th>SubMenu 1</th>
+                                  <th class="d-none d-sm-table-cell">http://localhost</th>
+                                  <th class="text-center">
+                                     <a class="mx-1" href="#" title="Exibir detalhes do menu.">
+                                         <span data-feather="eye"></span>
+                                     </a> 
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <th class="pl-4">2</th>
+                                  <th>SubMenu 2</th>
+                                  <th class="d-none d-sm-table-cell">http://localhost</th>
+                                  <th  class="text-center">
+                                     <a class="mx-1" href="#" title="Exibir detalhes do menu.">
+                                         <span data-feather="eye"></span>
+                                     </a>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <th class="pl-4">3</th>
+                                  <th>SubMenu 3</th>
+                                  <th class="d-none d-sm-table-cell">http://localhost</th>
+                                  <th  class="text-center">
+                                     <a class="mx-1" href="#" title="Exibir detalhes do menu.">
+                                         <span data-feather="eye"></span>
+                                     </a> 
+                                  </th>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card shadow">
+                     <div class="card-header">Ações</div>
+                     <div class="card-body">
+                         <a href="#" class="btn btn-outline-secondary btn-block">Apagar</a>
+                         <a href="#" class="btn btn-outline-secondary btn-block">Editar</a>
+                         <a href="#" class="btn btn-outline-secondary btn-block">Ver todos</a>
+                     </div>
+                  </div>
+                  
+                  <div class="card shadow">
+                     <div class="card-header">Menus</div>
+                     <ul class="list-group list-group-flush">
+                         <li class="list-group-item"> 1 Menu 1</li>
+                         <li class="list-group-item"> 2 Menu 2</li>
+                         <li class="list-group-item"> 3 Menu 3</li>
+                         <li class="list-group-item"> 4 Menu 4</li>
+                     </ul>
+                  </div>
+              </div>
+          </div>
+        </main>
+
+      </div>
+    </div>
+      
+    <footer class="footer fixed-bottom bg-dark mt-auto py_3">
+       <div class="container">
+         <span class="text-muted">© 2020 - Defensoria Pública do Estado Tocantins - Diretoria de Tecnologia da Informação.</span>
+       </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
