@@ -1,1 +1,3 @@
-# Template CMS
+# Template
+
+Este template foi desenvolvido para simple aprendizagem.
